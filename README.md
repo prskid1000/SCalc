@@ -1,2 +1,2 @@
 # SCalc
-This is my first android app project
+This is my first android app project created while following udacity tutorials
