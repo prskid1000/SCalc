@@ -38,10 +38,10 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="72sp"
+        android:layout_height="52sp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="32dp"
         android:backgroundTint="@android:color/holo_red_dark"
         android:onClick="multiply"
         android:text="@string/mul"
@@ -66,8 +66,8 @@
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="72sp"
+        android:layout_height="52sp"
         android:layout_marginTop="8dp"
         android:backgroundTint="@android:color/holo_red_dark"
         android:onClick="divide"
@@ -121,8 +121,8 @@
 
     <Button
         android:id="@+id/button13"
-        android:layout_width="wrap_content"
-        android:layout_height="48dp"
+        android:layout_width="72sp"
+        android:layout_height="52sp"
         android:layout_marginTop="8dp"
         android:backgroundTint="@android:color/holo_red_dark"
         android:onClick="modulus"
@@ -134,10 +134,10 @@
 
     <Button
         android:id="@+id/button14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="72sp"
+        android:layout_height="52sp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="32dp"
         android:backgroundTint="@android:color/holo_red_dark"
         android:onClick="factorial"
         android:text="@string/fact"
@@ -286,8 +286,8 @@
 
     <Button
         android:id="@+id/button27"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="72sp"
+        android:layout_height="52sp"
         android:layout_marginTop="8dp"
         android:backgroundTint="@android:color/holo_red_dark"
         android:onClick="sum"
@@ -299,10 +299,10 @@
 
     <Button
         android:id="@+id/button28"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="72sp"
+        android:layout_height="52sp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="32dp"
         android:backgroundTint="@android:color/holo_red_dark"
         android:onClick="subtract"
         android:text="@string/sub"
