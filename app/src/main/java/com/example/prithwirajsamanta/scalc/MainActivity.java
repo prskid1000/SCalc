@@ -104,12 +104,6 @@ public class MainActivity extends Activity {
         result.setText(Double.toString(answer));
     }
 
-    public void inverse(View v) {
-        num1 = Double.parseDouble(firstNumber.getText().toString());
-        answer = 1 / num1;
-        result.setText(Double.toString(answer));
-    }
-
     public void cube(View v) {
         num1 = Double.parseDouble(firstNumber.getText().toString());
         answer = num1 * num1 * num1;
