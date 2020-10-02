@@ -323,7 +323,7 @@
         android:ems="10"
         android:fontFamily="cursive"
         android:hint="@string/second_operand"
-        android:inputType="numberDecimal|numberPassword"
+        android:inputType="numberSigned|numberDecimal"
         android:textAlignment="center"
         android:textColor="@android:color/background_light"
         android:textColorHint="@android:color/background_light"
