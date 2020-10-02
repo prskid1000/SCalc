@@ -21,6 +21,12 @@ public class MainActivity extends Activity {
         result = findViewById(R.id.textView);
     }
 
+    public void clear(View v){
+        firstNumber.setText("");
+        secondNumber.setText("");
+        result.setText("");
+    }
+
     public void sum(View v) {
         num1 = Double.parseDouble(firstNumber.getText().toString());
         num2 = Double.parseDouble(secondNumber.getText().toString());
