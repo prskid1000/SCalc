@@ -38,10 +38,10 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="72sp"
-        android:layout_height="52sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="32dp"
+        android:layout_marginEnd="16dp"
         android:backgroundTint="@android:color/holo_red_dark"
         android:onClick="multiply"
         android:text="@string/mul"
@@ -66,8 +66,8 @@
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="72sp"
-        android:layout_height="52sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:backgroundTint="@android:color/holo_red_dark"
         android:onClick="divide"
@@ -121,8 +121,8 @@
 
     <Button
         android:id="@+id/button13"
-        android:layout_width="72sp"
-        android:layout_height="52sp"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginTop="8dp"
         android:backgroundTint="@android:color/holo_red_dark"
         android:onClick="modulus"
@@ -134,10 +134,10 @@
 
     <Button
         android:id="@+id/button14"
-        android:layout_width="72sp"
-        android:layout_height="52sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="32dp"
+        android:layout_marginEnd="16dp"
         android:backgroundTint="@android:color/holo_red_dark"
         android:onClick="factorial"
         android:text="@string/fact"
@@ -199,6 +199,20 @@
         android:background="@android:color/holo_red_dark"
         android:onClick="squareroot"
         android:text="@string/s_root"
+        android:textColor="@android:color/background_light"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button17" />
+
+    <Button
+        android:id="@+id/buttonClear"
+        android:layout_width="169dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="72dp"
+        android:background="@android:color/holo_red_dark"
+        android:onClick="clear"
+        android:text="Clear"
         android:textColor="@android:color/background_light"
         android:visibility="visible"
         app:layout_constraintStart_toStartOf="parent"
@@ -286,8 +300,8 @@
 
     <Button
         android:id="@+id/button27"
-        android:layout_width="72sp"
-        android:layout_height="52sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:backgroundTint="@android:color/holo_red_dark"
         android:onClick="sum"
@@ -299,10 +313,10 @@
 
     <Button
         android:id="@+id/button28"
-        android:layout_width="72sp"
-        android:layout_height="52sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="32dp"
+        android:layout_marginEnd="16dp"
         android:backgroundTint="@android:color/holo_red_dark"
         android:onClick="subtract"
         android:text="@string/sub"
@@ -323,7 +337,7 @@
         android:ems="10"
         android:fontFamily="cursive"
         android:hint="@string/second_operand"
-        android:inputType="numberSigned|numberDecimal"
+        android:inputType="numberDecimal|numberPassword"
         android:textAlignment="center"
         android:textColor="@android:color/background_light"
         android:textColorHint="@android:color/background_light"
