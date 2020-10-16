@@ -1,5 +1,5 @@
 # CalCus
-This is a naive calculator app.
+This is a Calculator App.
 
 ## Status
 Repository status([badge](https://img.shields.io/badge/)):
